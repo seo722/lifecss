@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <style>
+      /*
+      li {color: tomato;}
+      h1 {color: tomato;}
+      */
+
+      html {
+        /*상속 가능*/
+        color: tomato;
+      }
+      #select {
+        color: powderblue;
+      }
+      body {
+        /*상속 안 됨*/
+        border: 1px solid goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>수업 내용</h1>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li id="select">JavaScript</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>pseudo</title>
+    <style>
+      /*가상 클래스 선택자*/
+
+      /*방문한 적이 있는 링크(제약이 많음)*/
+      a:visited {
+        color: salmon;
+      }
+      /*방문한 적이 없는 링크*/
+      a:link {
+        color: rgb(0, 0, 0);
+      }
+      /*마우스를 롤오버 했을 때*/
+      a:hover {
+        color: yellowgreen;
+      }
+      /*마우스를 클릭했을 때*/
+      a:active {
+        color: green;
+      }
+      /*포커싱(탭or클릭)됐을 때*/
+      a:focus {
+        color: white;
+      }
+      input:focus {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://twitter.com/home">방문함</a>
+    <a href="https://a.a/">방문안함</a>
+    <input type="text" />
+  </body>
+</html>

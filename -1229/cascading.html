@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      li {
+        color: tomato !important/*다 무시하고 이거 먼저*/;
+      }
+      #idsel {
+        color: powderblue;
+      }
+      .classsel {
+        color: seagreen;
+      }
+      ol > li {
+        color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>HTML</li>
+      <li id="idsel" class="classsel" style="color: sienna">CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <ol>
+      우선순위
+      <li>style attribute 스타일 속성</li>
+      <li>id selector</li>
+      <li>class selector</li>
+      <li>tag selector</li>
+    </ol>
+  </body>
+</html>
